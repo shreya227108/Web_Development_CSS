@@ -1,0 +1,33 @@
+CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation (look and layout) of a document written in HTML.
+
+It controls how web elements appear on the screen — including their colors, fonts, spacing, and positioning.
+
+#Why Use CSS?
+-Separation of content and design (HTML = content, CSS = style)
+-Easier to maintain — update one CSS file to affect the whole website
+-Better user experience — makes sites more attractive and readable
+-Responsive Design — helps create layouts that work on all screen sizes
+
+#Key Features of CSS
+-Styling Elements: Change colors, fonts, backgrounds, borders, etc.
+-Layouts: Control element positions with Flexbox, Grid, or positioning properties
+-Animations: Create smooth transitions and animations
+-Media Queries: Adapt design to different devices and screen sizes
+
+#Syntax of CSS
+
+selector {
+  property: value;
+}
+
+#Example:
+
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+#Types of CSS
+-Inline CSS – inside HTML element
+-Internal CSS – inside <style> tag in HTML <head>
+-External CSS – in a separate .css file
