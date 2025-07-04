@@ -1,0 +1,38 @@
+#Syntax Explaination:
+
+    h2{
+        color:rebeccapurple;
+    }
+
+Here,
+h1=selector(It selects the aspects or tags in html file to be styled)
+color=Property(It defines property to be applied on tag)
+purple=Value(It is the value given to property)
+{}=Brackets
+
+#Types of Styling
+
+1.Inline style
+-Style is added in tag of selector in html file.
+Ex: <h1 style="color:green;">Hello Everyone in green</h1>
+Here the color is given to the text in the same line in html file only.
+
+2.Interal Styling
+-Style tag is added in head tag in html file using selector.
+Ex: h2{
+        color:rebeccapurple;
+    }
+Here the color is given to the text by adding style tag in html file.
+
+3.External Styling
+-Style is added by creating new style.css file and linking through link tag.
+Ex: <link rel="stylesheet" href="style.css">
+Here,
+link=Tag used to connect css file to html file.
+rel=Represent relation between two files being linked.
+href=path of the file which is linked.
+Hence the tags are written in html and they are styled with the help of style.css
+
+NOTE: If we overwrite the style of a tag already written in external style with 
+inline or internal styling, it will prioritize the inline or internal styling,
+to avoid this mostly use external styling method.
