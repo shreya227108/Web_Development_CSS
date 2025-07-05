@@ -1,0 +1,92 @@
+Lets start with some coloring properties in CSS
+
+NOTE:In CSS semicolon(;) is used just to show that the statement is ended here.
+
+#Color Property
+-Used to set the color of foreground which include text,elements like button,
+links, etc.
+Ex:
+color:red;
+color:brown;
+color:blue;
+=============================================
+
+#Background Color Property
+-Used to set the background color of page
+Ex:
+background-color: blanchedalmond;
+background-color: pink;
+background-color: blue;
+background-color: green;
+==============================================
+
+#Color System
+1.RGB
+r=red
+g=green
+b=blue
+We can choose the intensity of above colors through numbers from 0 to 255 to get perfect shade.
+NOTE:We don't have to remember value for every shade we can just google it or use shade in vscode.
+
+Ex:
+color: rgb(255,0,0);
+color: rgb(0,255,0);
+background-color: rgba(255, 227, 68, 0.818);
+------------------------------------------------
+
+2.Hex(Hexadecimal)
+we can choose the shaded of color by entering its hexadecimal values in the range of 00 to ff with # at initial.
+Syntax:
+color: #RRGGBB;
+Ex:
+color: #ff0000;
+color: #00ff00;
+color: #0000ff;
+background-color: #02790e;
+NOTE:We don't have to remember hex-value for every shade we can just google it or use shade in vscode.
+-You can get a amazing color palete on coolors website for better color combinantions for your webpage
+===============================================
+
+#Selectors
+NOTE: If we rewrite any property in css then the property written later is prioritized.
+
+1.Universal Selector
+syntax- *{}
+-Used to select all the elements of page to styling.
+Ex:
+*{
+    text-align: center;
+}
+-----------------------------------------------
+
+2.Element Selector
+syntax- h1{}
+-used to select specific elements for styling.
+Ex;
+h1{
+    color: green;
+}
+-----------------------------------------------
+
+3.Id Selector
+syntax- #myId { }
+-used to select specific elenments using id's given to elements in html file.
+Ex:
+<h2 id="heading">Helloo</h2>
+
+#heading{
+    color: cadetblue;
+}
+-----------------------------------------------
+
+4.Class Selector
+syntax- .myClass { }
+-Used to give same styling to multiple elements by adding it to same class adn then styling it.
+Ex:
+<h1 class="mytext">Lorem ipsum dolor sit amet.</h1>
+<h2 class="mytext">Lorem consectetur adipisicing.</h2>
+
+.mytext{
+    color:darkolivegreen;
+}
+==============================================
