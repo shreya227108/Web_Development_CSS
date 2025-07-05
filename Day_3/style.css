@@ -1,0 +1,39 @@
+h1{
+    color: green;
+}
+
+p{
+    color:chocolate;
+}
+
+button{
+    color:blue;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+button{
+    background-color:darkgoldenrod;
+}
+
+h5{
+    color: rgb(150, 82, 14);
+}
+
+h6{
+    color: #02790e;
+}
+
+*{
+    text-align: center;
+}
+
+#heading{
+    color: cadetblue;
+}
+
+.mytext{
+    color:darkolivegreen;
+}
