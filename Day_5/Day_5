@@ -1,0 +1,61 @@
+Let's start with Unit's in CSS
+
+#Units in CSS
+units are used to define the size of elements, spacing, positioning, and more. There are two main types of CSS units:
+
+1.Absolute Units
+-These units are fixed and do not change depending on screen size or resolution.
+| Unit | Meaning                  | Example            |
+| ---- | ------------------------ | ------------------ |
+| `px` | Pixels                   | `width: 100px;`    |
+| `pt` | Points (1pt = 1/72 inch) | `font-size: 12pt;` |
+| `cm` | Centimeters              | `width: 10cm;`     |
+| `mm` | Millimeters              | `height: 15mm;`    |
+| `in` | Inches                   | `width: 1in;`      |
+| `pc` | Picas (1pc = 12pt)       | `font-size: 2pc;`  |
+
+
+2. Relative Units
+-These units are based on other elements or the viewport size. They’re more flexible and better for responsive design.
+
+a.Relative to Font Size:
+| Unit  | Meaning                                      | Example                            |
+| ----- | -------------------------------------------- | ---------------------------------- |
+| `em`  | Relative to the **font-size of the parent**  | `font-size: 2em;` (2× parent font) |
+| `rem` | Relative to the **root element's font size** | `padding: 1rem;`                   |
+| `%`   | Relative to **parent element's value**       | `width: 50%;`                      |
+
+
+b.Relative to Viewport:
+| Unit   | Meaning                       | Example             |
+| ------ | ----------------------------- | ------------------- |
+| `vw`   | 1% of **viewport width**      | `width: 50vw;`      |
+| `vh`   | 1% of **viewport height**     | `height: 100vh;`    |
+| `vmin` | 1% of the smaller of vw or vh | `font-size: 5vmin;` |
+| `vmax` | 1% of the larger of vw or vh  | `font-size: 5vmax;` |
+
+We will learn the usage and practice about relative units later again.
+
+==========================================================================================================================
+
+#Line-height Property
+-used to define the distance between two line of paragraph or any text.
+Ex:
+#one{
+    line-height: 20px;
+}
+
+===========================================================================================================================
+
+#text-transformation
+-used to control the capitalization or case of text.
+-there are four main transformations: 
+    1.uppercase-All letters are converted into uppercase.
+    2.lowercase-All letters will be converted into lowercase.
+    3.capitalize-First letter of every word is converted to capital.
+    4.none-No transfomation  is applied.
+Ex:
+#two{
+    text-transform: uppercase;
+}
+
