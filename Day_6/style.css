@@ -1,0 +1,38 @@
+#first{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid chocolate;
+}
+
+h1{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color:aquamarine;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color:crimson;*/
+    border: 2px solid crimson;
+}
+
+p{
+    border-width: 2px ;
+    border-style:double;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color:darksalmon;
+    border: 2px solid crimson;
+    /*border-radius: 50%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding: 25px;*/
+    padding: 1px 2px 3px 4px;
+    margin-top: 50px;
+}
+
+
+
