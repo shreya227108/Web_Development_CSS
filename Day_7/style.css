@@ -1,0 +1,38 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(0, 255,0,1);
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(0, 0, 255,1);
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(255,0,0,1);;
+}
+
+/*
+#box2{
+    display: none;
+}
+*/
+
+#alpha{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.5);
+}
