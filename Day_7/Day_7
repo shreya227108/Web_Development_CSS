@@ -1,0 +1,24 @@
+Lets learn about Display Property.
+
+#Display Property
+-With display property we cans change a display type and its working of an element on webpage
+-types of display properties: inline / block / inline-block / none
+    -inline - Takes only the space required by the element. (no margin/ padding)
+    -block - Takes full space available in width.
+    -inline-block - Similar to inline but we can set margin & padding.
+    -none - To remove element from document flow along with its space.
+
+#Visibility
+-visibility: hidden;
+-To remove element from document flow but its space is reserved.
+
+Note : When visibility is set to none, space for the element is reserved.
+But for display set to none, no space is reserved or blocked for the
+element.
+
+#Alpha Channel
+-represents the opacity (transparency level) of a color in digital graphics, including CSS.
+-It varies from 0 to 1
+    0=not visible
+    1=completely visible
+
