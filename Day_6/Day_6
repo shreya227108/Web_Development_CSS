@@ -1,0 +1,101 @@
+Today we will start with the box modle in CSS.
+
+#Box Model Components
+
+|-----------------------------------------|
+|               Margin                    |
+|  |-------------------------------|      |
+|  |           Border              |      |
+|  |   |-----------------------|   |      |
+|  |   |       Padding         |   |      |
+|  |   |   |-------------|     |   |      |
+|  |   |   |   Content   |     |   |      |
+|  |   |   |-------------|     |   |      |
+|  |   |-----------------------|   |      |
+|  |-------------------------------|      |
+|-----------------------------------------|
+
+1.Content
+-This is the actual content of the box (like text, images, etc.).
+-You can set its size using width and height.
+    a.height-it sets the content area height of the element
+    Ex:
+    div {
+        height: 50px;
+    }
+
+    b.Width-it sets the content area width of the element.
+    Ex:
+    div {
+        width: 50px;
+    }
+-----------------------------------------------------------------
+
+2.Border
+-It's a border surrounding the padding and content.
+-It can be customized using:
+    1.Width-Defines how thick the border is.
+    2.Style-Defines the line pattern of the border
+    3.Color-Sets the color of the border.
+    4.(and also individual sides: top, right, bottom, left)
+-There are two methods to write border-
+1.LongHand
+-Every propertyyof border is written seprately on seprate line.
+Ex:
+border-width: 2px;
+border-style: solid;
+border-color:crimson;
+
+2.Shorthand
+-All the properties of border are writte in same line only.
+-Basic Syntax-
+    border: [border-width] [border-style] [border-color];
+-Ex:
+    border: 2px solid red;
+
+-Borde-Radius
+-Used to round the corners of an element's outer border edge using two unit px or %.
+-Ex:
+border-radius : 10px;
+border-radius : 50%;
+----------------------------------------------------------------
+
+3.Padding
+-Space content of an element and its border.
+-Basic YSntax:
+    padding: [top] [right] [bottom] [left];
+-You can set padding by two methods:
+1.All sides at once
+2.Each side individually
+Ex:
+1.padding: 20px;
+2.padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+----------------------------------------------------------------
+
+4.Margin
+-Margin is the space outside an element’s border.
+-It creates space between two elements.
+-You can set margin with three types:
+    1.A single value (same on all sides)
+    2.Shorthand (for specific sides in one line)
+    3.Each side individually (margin-top, etc.)
+
+1.Single value
+-Ex:
+  margin-top: 20px;
+
+2.Shorthand Syntax
+-Syntax:
+    margin: top right bottom left;
+-Ex:
+    margin: 10px 20px 30px 40px;
+
+3.Individual Side Properties
+-Ex:
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 25px;
