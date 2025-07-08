@@ -1,0 +1,66 @@
+In this session we will get back to the relative units in css.
+
+#Relative Units
+-These units are based on other elements or the viewport size. They’re more flexible and better for responsive design.
+-There are based on parent-child relationship.
+
+a.Relative to Font Size:
+| Unit  | Meaning                                  | Example                            |
+| ----- | -----------------------------------------| ---------------------------------- |
+| `em`  | Relative to the font-size of the parent  | `font-size: 2em;` (2× parent font) |
+| `rem` | Relative to the root element's font size | `padding: 1rem;`                   |
+| `%`   | Relative to parent element's value       | `width: 50%;`                      |
+
+Note-In few cases like width if we apply 'em' then font size of element itself and not of the parent is considered.
+Ex: 
+#box1{
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+    /* 2em is 2 times of parents font size*/
+}
+
+Here box1 is parent and box2 is child.
+-Width of box2 will be 30% of box1.
+-margin of box2 will be 10% of width of box1.
+-font size of box2 will be 2em i.e 2 times of box1.
+-In case of width ,width of box2 will be 5em i.e. 5 times of font size of child itself i.e. box2 not box1.
+-width of box2 written as 5rem represents that 5 times of root element i.e. elements in body tag.
+
+------------------------------------------------------------------------------------------------------------
+
+b.Relative to Viewport:
+| Unit   | Meaning                       | Example             |
+| ------ | ----------------------------- | ------------------- |
+| `vw`   | 1% of viewport width          | `width: 50vw;`      |
+| `vh`   | 1% of viewport height         | `height: 100vh;`    |
+| `vmin` | 1% of the smaller of vw or vh | `font-size: 5vmin;` |
+| `vmax` | 1% of the larger of vw or vh  | `font-size: 5vmax;` |
+
+-Ex:
+1.height: 50vh;
+-This states that height of element will be 50% of view port i.e. your window size.
+
+2.width: 20vw
+-This states that width of element will be 50% of view port i.e. your window size.
+
+3.vmin — Viewport Minimum
+-1vmin=1% of the smaller dimension
+-if your screen is 800px wide and 600px tall:
+width:1vmin;
+-1% of 600px = 6px
+
+4.vmax — Viewport Maximum
+-1vmax = 1% of the larger dimension
+-Using the same screen (800px × 600px);
+width:1vmax;
+-1% of 800px = 8px
+=============================================================================================================
