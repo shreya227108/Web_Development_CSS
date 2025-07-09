@@ -1,0 +1,51 @@
+Lets start with position in css
+
+#position 
+-The position CSS property sets how an element is positioned in a document.
+-static is a by default position
+-Types of positions:
+    position : static / relative /absolute/ fixed
+
+1.static - default position (The top, right, bottom, left, and z-index properties have no effect)
+2.relative - element is relative to itself. (The top, right, bottom, left, and z-index will work)
+3.absolute - positioned relative to its closest positioned ancestor i.e. parents (removed from the flow)
+Ex:
+#box3{
+    position: absolute;
+    top: 10px;
+}
+Here closest ancestoris body tag hence box2 is moved at 10px from top.
+
+4.fixed - positioned relative to browser. (removed from flow)
+5.sticky - positioned based on user's scroll position i.e once user get to see it on screen then it's position gets fixed on screen
+
+====================================================================================================================================
+
+#Z-index
+-It decides the stack level of elements.
+-In CSS by default in case of overlapping elements the stack order of elements are decided by its order of delaration
+ i.e. first declared element goes down and lastly declared elements comes to top to overcome this issue z-index is declared.
+-Overlapping elements with a larger z-index cover those with a smaller one.
+
+z-index : auto (Default index- 0)
+
+z-index : 1 / 2 / ...(Brings element to top)
+
+z-index : -1 / -2 / ...(Brings element to bottom)
+
+======================================================================================================================================
+
+#Background Images
+-Used to set an image as background
+-Syntax:
+    background-image : url("image.jpeg");
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+#Background Size
+
+cover = fits with no empty space perfectly.
+contain - fits with image fully visible, but can repeat the image and have to use n-repeat value to avoid that hence mostly avoided
+auto = original size(Default)
+
+background-size : cover / contain / auto
