@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-image:url(landslide.jpg) ;
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+}
