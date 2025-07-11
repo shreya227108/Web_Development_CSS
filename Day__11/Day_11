@@ -1,0 +1,32 @@
+Lets learn about Media Queries today.
+
+#Media query
+-A media query in CSS is a technique used to apply different styles to a webpage based on the characteristics of the device or screen being used to view it 
+—such as screen width, height, resolution, orientation, or even color depth.
+-Syntax:
+@media media-type and (condition) {
+  /* CSS rules here */
+}
+
+Ex:
+@media (width : 600px) {
+    div {
+    background-color : red;
+    }
+}
+
+#Common Media Features
+| Feature       | Description                | Example                  |
+| ------------- | -------------------------- | ------------------------ |
+| `max-width`   | Max screen width           | `max-width: 768px`       |
+| `min-width`   | Min screen width           | `min-width: 1024px`      |
+| `orientation` | Portrait or landscape mode | `orientation: landscape` |
+| `max-height`  | Max screen height          | `max-height: 500px`      |
+| `resolution`  | Screen resolution (DPI)    | `min-resolution: 300dpi` |
+
+#Multiple Conditions Example
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .menu {
+    font-size: 18px;
+  }
+}
