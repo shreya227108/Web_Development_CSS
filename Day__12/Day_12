@@ -1,0 +1,64 @@
+We have completed our basics of CSS, Lets start with some advanced properties in CSS!
+
+#Transitions
+-Enable you to define the transition between two states of an element.
+-Basic Syntax:
+selector {
+  transition: property duration timing-function delay;
+}
+
+#Properties of a transition
+| Property                     | Description                              | Example                     |
+| ---------------------------- | ---------------------------------------- | --------------------------- |
+| `transition-property`        | The CSS property to animate              | `background-color`          |
+| `transition-duration`        | How long the transition takes            | `0.5s`, `1s`, `300ms`       |
+| `transition-timing-function` | Speed curve of the transition            | `ease`, `linear`, `ease-in` |
+| `transition-delay`           | When the transition should start (delay) | `0s`, `1s`                  |
+
+#Shorthand:
+transition: all 0.3s ease-in-out 0s;
+-----------------------------------------
+#Expanded:
+transition-property: all;
+transition-duration: 0.3s;
+transition-timing-function: ease-in-out;
+transition-delay: 0s;
+
+===================================================================================================================
+
+#CSS Transform
+-allows you to visually manipulate an element by rotating, scaling, translating (moving), or skewing it.
+-adding dynamic visual effects without changing the actual layout of the page.
+-syntax:
+transform: function(value);
+
+Ex:
+transform: translateX(50px) rotate(45deg) scale(1.5);
+
+#Common Transform Functions
+| Function          | Description                  | Example                  |
+| ----------------- | ---------------------------- | ------------------------ |
+| `translate(x, y)` | Moves the element            | `translate(50px, 100px)` |
+| `rotate(angle)`   | Rotates the element          | `rotate(45deg)`          |
+| `scale(x, y)`     | Scales the size              | `scale(1.5)`             |
+| `skew(x, y)`      | Skews the element            | `skew(20deg, 10deg)`     |
+| `matrix(...)`     | Combines multiple transforms | Advanced, rarely used    |
+
+------------------------------------------------------------------------------------------------------------------
+
+1.rotate(Rotates the element)
+-transform: rotate(45deg);
+
+2.scale(Scales the size)
+-transform:scaleX(2);
+-transform:scaleY(2);
+
+3.translate(Moves the element)
+-transform: translateX(300px);
+-transform: translateY(300px);
+-transform: translate(20px, 50px);
+
+4.skew(Skews the element)
+-transform: skew (30deg);
+
+===================================================================================================================
