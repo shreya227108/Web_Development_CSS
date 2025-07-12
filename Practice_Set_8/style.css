@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 8px solid #ccc;           /* light gray border */
+  border-top: 8px solid #3498db;     /* blue top border */
+  border-radius: 50%;               /* circular shape */
+  animation: spin 1s linear infinite; /* step 3 */
+}
+
+/* step 2: keyframes for rotation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
