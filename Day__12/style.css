@@ -1,0 +1,30 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    border: 2px solid black;
+    position: relative;
+    top:100px;
+    left: 100px;
+    /*transition-property:all;
+    transition-duration:2s;
+    transition-timing-function: steps(5);
+    transition-delay: 2s;
+    transform: rotate(45deg);
+    transform:scale(2, 2);*/
+    transition: all 2s;
+}
+
+div:hover{
+    background-color:darkmagenta;
+    color:beige ;
+    font-size: 18px ;
+   /*transform: rotate(360deg);
+    transform: translateY(300px);*/
+    transform: skew(30deg);
+}
+
+div:active{
+    background-color: aqua;
+    color: brown;
+}
