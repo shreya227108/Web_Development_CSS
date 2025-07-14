@@ -1,0 +1,54 @@
+Today is the last topic of CSS which is Animations
+
+#Animations
+-allow elements to gradually change styles over time
+-like movement, color change, size change, rotation, etc.
+-Basic Syntax
+To create an animation, you use two things:
+@keyframes — Defines the animation steps
+Ex:
+@keyframe myName {
+from { font-size : 20px; }
+to { font-size : 40px; }
+}
+
+---------------------------------------------------------------
+
+#animation property — Applies the animation to an element
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count(How many times)
+animation-direction-
+    -normal(cycle)
+    -reverse(To-from)
+    -alternate(to-from-to)
+    -alternate-reverse(from-to-from)
+
+---------------------------------------------------------------
+
+#Animation Shorthand
+Ex:
+animation : myName 2s linear 3s infinite normal
+
+----------------------------------------------------------------
+
+#% in Animation
+% represent amount of work completed
+0% = Start
+50%=Middleway
+100%=end
+
+@keyframe myName {
+0% { font-size : 20px; }
+50% { font-size : 30px; }
+100% { font-size : 40px; }
+}
+
+-----------------------------------------------------------------
+
+This is the end of our CSS journey.
+
+Thanks a lot for being tuned!!
+Hope this journey lead you through amazing knowlagable things.
